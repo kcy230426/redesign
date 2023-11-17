@@ -9,8 +9,6 @@ const Nwf = (props) => {
     const cb = props.data
 
     useEffect(() => {
-        // 페이지가 로드될 때마다 스크롤을 상단으로 이동
-        console.log('useEffect is running!');
         window.scrollTo(0, 0);
       }, []);
 
