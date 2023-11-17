@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/kcy230426/redesign.git/static/css/main.50823347.css",
-    "main.js": "/kcy230426/redesign.git/static/js/main.f9a28008.js",
+    "main.js": "/kcy230426/redesign.git/static/js/main.540e005e.js",
     "static/js/787.39bb0775.chunk.js": "/kcy230426/redesign.git/static/js/787.39bb0775.chunk.js",
     "static/media/before.png": "/kcy230426/redesign.git/static/media/before.5bc13f4df8d05dff7c5b.png",
     "index.html": "/kcy230426/redesign.git/index.html",
     "main.50823347.css.map": "/kcy230426/redesign.git/static/css/main.50823347.css.map",
-    "main.f9a28008.js.map": "/kcy230426/redesign.git/static/js/main.f9a28008.js.map",
+    "main.540e005e.js.map": "/kcy230426/redesign.git/static/js/main.540e005e.js.map",
     "787.39bb0775.chunk.js.map": "/kcy230426/redesign.git/static/js/787.39bb0775.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.50823347.css",
-    "static/js/main.f9a28008.js"
+    "static/js/main.540e005e.js"
   ]
 }
