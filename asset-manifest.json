@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/kcy230426/test.git/static/css/main.70258898.css",
-    "main.js": "/kcy230426/test.git/static/js/main.743fdfed.js",
-    "static/js/787.39bb0775.chunk.js": "/kcy230426/test.git/static/js/787.39bb0775.chunk.js",
-    "static/media/before.png": "/kcy230426/test.git/static/media/before.5bc13f4df8d05dff7c5b.png",
-    "index.html": "/kcy230426/test.git/index.html",
-    "main.70258898.css.map": "/kcy230426/test.git/static/css/main.70258898.css.map",
-    "main.743fdfed.js.map": "/kcy230426/test.git/static/js/main.743fdfed.js.map",
-    "787.39bb0775.chunk.js.map": "/kcy230426/test.git/static/js/787.39bb0775.chunk.js.map"
+    "main.css": "/kcy230426/redesign.git/static/css/main.50823347.css",
+    "main.js": "/kcy230426/redesign.git/static/js/main.f9a28008.js",
+    "static/js/787.39bb0775.chunk.js": "/kcy230426/redesign.git/static/js/787.39bb0775.chunk.js",
+    "static/media/before.png": "/kcy230426/redesign.git/static/media/before.5bc13f4df8d05dff7c5b.png",
+    "index.html": "/kcy230426/redesign.git/index.html",
+    "main.50823347.css.map": "/kcy230426/redesign.git/static/css/main.50823347.css.map",
+    "main.f9a28008.js.map": "/kcy230426/redesign.git/static/js/main.f9a28008.js.map",
+    "787.39bb0775.chunk.js.map": "/kcy230426/redesign.git/static/js/787.39bb0775.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.70258898.css",
-    "static/js/main.743fdfed.js"
+    "static/css/main.50823347.css",
+    "static/js/main.f9a28008.js"
   ]
 }
