@@ -219,7 +219,7 @@ const handleSnkrMouseEnter = () => {
         {['cart', 'login', 'search'].map((category) => (
                     <li key={category} className={`menus ${category}`}>
                      {Object.keys(menus[category]).map((key) => (
-                        <a key={menus[category][key].id} href={'#' + menus[category][key].href} className={`d2a ${menus[category][key].cls}`} onClick={searchClick}>{menus[category][key].titlename}</a>
+                        <button key={menus[category][key].id} className={`d2a ${menus[category][key].cls}`} onClick={searchClick}>{menus[category][key].titlename}</button>
                       
                     ))}
                     </li>
