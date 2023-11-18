@@ -12,7 +12,7 @@ import cb from './db/mapping.json'
 
 function App() {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
     <Header dbnav={db.nav} dbnr={db.nr} dbm={db.men} dbwm={db.women} dbk={db.kids} dbs={db.sale} ms={db.menus}></Header>
     <Routes>
       <Route path="/" element={<div><Contents dbd1={db.d1} dbd2={db.d2} dbd3={db.d3} /></div>}></Route>
