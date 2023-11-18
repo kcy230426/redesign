@@ -15,7 +15,7 @@ function App() {
     <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Header dbnav={db.nav} dbnr={db.nr} dbm={db.men} dbwm={db.women} dbk={db.kids} dbs={db.sale} ms={db.menus}></Header>
     <Routes>
-      <Route path="/redesign" element={<div><Contents dbd1={db.d1} dbd2={db.d2} dbd3={db.d3} /></div>}></Route>
+      <Route path="/" element={<div><Contents dbd1={db.d1} dbd2={db.d2} dbd3={db.d3} /></div>}></Route>
       <Route path="/nwf" element={<Nwf data={cb.db}/>} />
     </Routes>
     <Footer dbf={db.footer} dbq={cb.db} dbs={db.fsns} dbm={db.fmenus} dbi={db.finfo} dbn={db.fnotice}/>

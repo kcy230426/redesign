@@ -137,7 +137,7 @@ const handleSnkrMouseEnter = () => {
     <div id="wrap">
           <header id="header" className={`${isScrolled ? 'scroll' : ''}`}>
       <div id={style.hd} className='d-flex justify-content-between align-items-center'>
-        <div className='logo'><Link to="/redesign"><img src={logo} alt="로고" /></Link></div>
+        <div className='logo'><Link to="/"><img src={logo} alt="로고" /></Link></div>
         <ul id="gnb" className="d-flex justify-content-between align-items-center">
           {nav.gnb.map((x, i) => (
             <li
