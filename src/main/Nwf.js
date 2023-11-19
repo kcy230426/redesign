@@ -32,11 +32,11 @@ const Nwf = (props) => {
                                         <li key={`${v.id}_c3`} className={v.c3class}>{v.c3}</li>
                                         <li key={`${v.id}_c4`} className={v.c4class}>{v.c4}</li>
                                         {/* <li><img src={v.img} alt={v.imgalt}/></li> */}
-                                        <li key={`${v.id}_btn`}><button key={`${v.id}_button`}>{v.button}</button></li>
+                                        <li key={`${v.id}_btn`}><button>{v.button}</button></li>
                                         </div>
                                      <div key={`${v.id}_right`} className="right">
-                                        <img key={`${v.id}_img`} src={v.img} alt={v.imgalt} />
-                                        <div key={`${v.id}_ect`}>{v.ect}</div>
+                                        <img src={v.img} alt={v.imgalt} />
+                                        <div>{v.ect}</div>
                                     </div>
                                     </ul>
                                 </div>

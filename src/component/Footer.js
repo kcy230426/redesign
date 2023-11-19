@@ -58,7 +58,7 @@ const Footer = (props) => {
                     <ul key={category} className={`d-flex ft ${category}`}>
                         {ft[category].map((item) => (
                         <li key={item.id} className="ft-item">
-                            <a key={`${item.id}_title`} href={`#${item.href}`} className="d2a">
+                            <a href={`#${item.href}`} className="d2a">
                             {item.title}
                             </a>
                             {Object.keys(item).slice(4).map((key, index) => (
@@ -76,8 +76,8 @@ const Footer = (props) => {
                         <li key={category} className={`sclass ${category}`}>
                         {fsns[category].map((item) => (
                             <a key={item.id} href={`#${item.href}`}>
-                                <img key={`${item.id}_black`} className="black" src={item.img} alt={item.imgalt}/>
-                                <img key={`${item.id}_white`} className="white" src={item.wimg} alt={item.imgalt}/>
+                                <img className="black" src={item.img} alt={item.imgalt}/>
+                                <img className="white" src={item.wimg} alt={item.imgalt}/>
                             </a>
                         ))}
                         </li>
@@ -89,7 +89,7 @@ const Footer = (props) => {
                         <React.Fragment key={category}>
                         {fmenus[category].map((item) => (
                             <li className={item.class} key={item.id}>
-                            <a key={item.id} href={`#${item.href}`}>{item.c1}</a>
+                            <a href={`#${item.href}`}>{item.c1}</a>
                             </li>
                         ))}
                         </React.Fragment>
@@ -103,10 +103,10 @@ const Footer = (props) => {
                                 <React.Fragment key={category}>
                                 {finfo[category].map((item)=>(
                                     <ul className="cbox" key={item.id}>
-                                        <li key={`${item.id}_c1`} className={item.class}>{item.c1}</li>
-                                        <li key={`${item.id}_c2`} className={item.class}>{item.c2}</li>
-                                        <li key={`${item.id}_c3`} className={item.class}>{item.c3}</li>
-                                        <li key={`${item.id}_c4`} className={item.class}>{item.c4}</li>
+                                        <li className={item.class}>{item.c1}</li>
+                                        <li className={item.class}>{item.c2}</li>
+                                        <li className={item.class}>{item.c3}</li>
+                                        <li className={item.class}>{item.c4}</li>
                                     </ul>
                                 ))}
                                 </React.Fragment>
@@ -116,8 +116,8 @@ const Footer = (props) => {
                             <React.Fragment key={category}>
                             {fnotice[category].map((item)=>(
                                 <ul className="notice1" key={item.id}>
-                                <li key={`${item.id}_c1`} className={item.class}>{item.c1}</li>
-                                <li key={`${item.id}_c2`} className={item.class}>{item.c2}</li>
+                                <li className={item.class}>{item.c1}</li>
+                                <li className={item.class}>{item.c2}</li>
                             </ul>
                             ))}
                             </React.Fragment>
@@ -126,8 +126,8 @@ const Footer = (props) => {
                             <React.Fragment key={category}>
                             {fnotice[category].map((item)=>(
                                 <ul className="notice2" key={item.id}>
-                                <li key={`${item.id}_c3`} className={item.class}>{item.c3}</li>
-                                <li key={`${item.id}_btn`}><button key={item.id}>{item.button}</button></li>
+                                <li className={item.class}>{item.c3}</li>
+                                <li><button key={item.id}>{item.button}</button></li>
                             </ul>
                             ))}
                             </React.Fragment>

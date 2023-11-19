@@ -146,7 +146,7 @@ const handleSnkrMouseEnter = () => {
               onMouseEnter={x.titlename === "New Releases" ? handleMouseEnterNr : x.titlename === "Men" ? handleMouseEnterMen : x.titlename === "Women" ? handleMouseEnterWomen : x.titlename === "Kids" ? handleMouseEnterKids : x.titlename === "Sale" ? handleMouseEnterSale : x.titlename === "SNKRS" ? handleSnkrMouseEnter : x.titlename === "Member Days 미리보기" ? handleMemberMouseEnter : null}
               onMouseLeave={handleMouseLeave}
             >
-              <a key={x.id} href={'#' + x.href} className="d1a">{x.titlename}</a>
+              <a href={'#' + x.href} className="d1a">{x.titlename}</a>
               {x.titlename === "New Releases" && showNr && (
                 <ul id="d2ul" className='d-flex'>
                     {['nf', 'si', 'mnew', 'wnew', 'knew'].map((category) => (
