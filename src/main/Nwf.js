@@ -14,7 +14,7 @@ const Nwf = (props) => {
 
     return(
         <div id="d2c">
-             <Swiper id="ulbox" spaceBetween={0} slidesPerView={1} pagination={{ clickable: true }} autoplay={{ delay: 8000, disableOnInteraction: false,}} modules={[Autoplay, Pagination]}>
+             <Swiper id="ulbox" spaceBetween={0} slidesPerView={1} pagination={{ clickable: true }} autoplay={{ delay: 8000, disableOnInteraction: false,}} modules={[Pagination]}>
                         {cb.nwf.d2.map((v, idx)=>{
                             return(
                                 <SwiperSlide key={v.id}>

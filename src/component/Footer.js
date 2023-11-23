@@ -1,5 +1,6 @@
-import React, {useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import logo from "../asset/f_logo.png"
+import arrow from '../asset/b_arrow.svg'
 
 
 const Footer = (props) => {
@@ -36,6 +37,26 @@ const Footer = (props) => {
         };
       }, []);
 
+      const [scrolling, setScrolling] = useState(false);
+
+        const scrollToSection = () => {
+            setScrolling(true);
+            const element = document.getElementById('ft');
+
+            if (element) {
+            const offset = element.getBoundingClientRect().top + window.scrollY;
+
+            window.scrollTo({
+                top: offset,
+                behavior: 'smooth'
+            });
+
+            setTimeout(() => {
+                setScrolling(false);
+            }, 800); // 스크롤 속도 조절을 위한 시간 설정 (800ms)
+            }
+        };
+
   
 
 
@@ -50,6 +71,7 @@ const Footer = (props) => {
                                 )
                             })
                         }
+                        <li class="btn4" onClick={scrollToSection}  disabled={scrolling}><img src={arrow} alt="하단 이동 버튼" /></li>
                     </ul>
                 </div>
             <div className="ftbox d-flex justify-content-between">
